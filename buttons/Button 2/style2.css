@@ -1,0 +1,182 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .button1 {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #444;
+    text-align: center;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+  }
+  
+  .button1:hover {
+    color: #fff;
+  }
+  
+  .button1:after {
+    content: "";
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 8px;
+    background-color: #697de1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+  
+  .button1:hover:after {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+
+  
+  .button2 {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #444;
+    text-align: center;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+  }
+  
+  .button2:hover {
+    color: #fff;
+  }
+  
+  .button2:after {
+    content: "";
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 8px;
+    background-color: #000000;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+  
+  .button2:hover:after {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  
+  .button3 {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #444;
+    text-align: center;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+  }
+  
+  .button3:hover {
+    color: #fff;
+  }
+  
+  .button3:after {
+    content: "";
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 8px;
+    background-color: #158609;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+  
+  .button3:hover:after {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+
+
+  
+  .button4 {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #444;
+    text-align: center;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.4s ease;
+  }
+  
+  .button4:hover {
+    color: #fff;
+  }
+  
+  .button4:after {
+    content: "";
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 8px;
+    background-color: #e01178;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+  
+  .button4:hover:after {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  .fa {
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  

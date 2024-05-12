@@ -1,0 +1,55 @@
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  }
+  
+  a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;  
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+    border-radius: 5px;  
+    overflow: hidden;  
+  }
+  
+  a span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.35s ease;  
+  }
+  
+  a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, #ff003b, #970606af);  
+    transition: width 5s ease-out;  
+    z-index: 1;  
+  }
+  
+  a:hover {
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);  
+  }
+  
+  a:hover:after {
+    width: 100%;  
+  }
+  

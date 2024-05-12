@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+div[class*=box]{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.btn{
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+}
+.button a {
+    color:#fff;
+    font-size: 20px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    background-color:#d5812c;
+    box-shadow: inset 0 1px 0 #8a4805, 0 10px 0 #8a4805;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    z-index: -1;
+    bottom: -15px;
+    left: -4px;
+    background-color: black;
+ }
+
+.button a:active {
+    top: 10px;
+    box-shadow: inset 0 1px #8a4805, 0 -3px 0 #8a4805;
+}
